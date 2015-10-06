@@ -1,0 +1,86 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "5 канал",
+    "Icon": "/Assets/DataImages/5_channel.png",
+    "Target": "Section2ListPage",
+    "_id": "ae3856bc-f35b-45f7-a30d-c62dea8694ac"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Українська Правда",
+    "Icon": "/Assets/DataImages/ukrpravda.png",
+    "Target": "Section3ListPage",
+    "_id": "3ea3285c-0bf8-4d15-8881-eae6fc62ceba"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Громадське ТБ",
+    "Icon": "/Assets/DataImages/Hromadske.TV.png",
+    "Target": "Section4ListPage",
+    "_id": "d4c7d76b-16c1-4a8b-8fef-862324088948"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "InfoResist",
+    "Icon": "/Assets/DataImages/inforesist.png",
+    "Target": "InfoResistListPage",
+    "_id": "f1ec9b09-aa44-4cc7-994d-4f0d8ff884fd"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "УкропНьюс",
+    "Icon": "/Assets/DataImages/ukrop.png",
+    "Target": "Section5ListPage",
+    "_id": "f7bb7826-8967-43d6-a72b-d1e9864ef109"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Цензор.Нет",
+    "Icon": "/Assets/DataImages/censor.png",
+    "Target": "Section6ListPage",
+    "_id": "bd1b6c26-2015-4b85-b57b-0bfd9e68c6ce"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "24 канал",
+    "Icon": "/Assets/DataImages/24.png",
+    "Target": "Section7ListPage",
+    "_id": "73a0c0d7-4238-4dcd-bd5b-248d727cda41"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "ЛІГА",
+    "Icon": "/Assets/DataImages/liga.png",
+    "Target": "Section8ListPage",
+    "_id": "adcb31aa-51c6-4d4c-bfbd-91c63a99fef5"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Уніан",
+    "Icon": "/Assets/DataImages/unian.png",
+    "Target": "Section9ListPage",
+    "_id": "6a38475e-d4cc-4ccf-b466-39a5f0fb55c2"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Дзеркало Тижня",
+    "Icon": "/Assets/DataImages/zerkalonedeli.png",
+    "Target": "Section10ListPage",
+    "_id": "9a0a3537-01b2-40a2-8172-88bc873cfb4f"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Корреспондент.net",
+    "Icon": "/Assets/DataImages/korrespondent.png",
+    "Target": "NetListPage",
+    "_id": "e92294e7-dc69-4c2e-bc53-497134403fa7"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Еспресо TV",
+    "Icon": "/Assets/DataImages/ModuleLogo.png",
+    "Target": "TVListPage",
+    "_id": "c9de136e-abee-41b4-9443-f4e04331d5c9"
+  }
+]

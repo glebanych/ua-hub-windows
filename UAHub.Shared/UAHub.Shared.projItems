@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Config\ActionConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\ConfigBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\PageConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Config\SectionConfigBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DesignTime\DesignViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TileServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ComposedItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DataViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DetailViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ItemViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PrivacyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PageBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ImageViewer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section1ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section2ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section3ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section4ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\InfoResistListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section5ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section6ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\NetListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section7ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section8ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section9ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section10ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TVListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section11ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section12ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section13ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section14ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section15ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section16ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section17ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section18ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section19ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section20ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section21ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section22ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section23ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section24ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LuganskNewsTodayListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section25ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\InformatorLgUaListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Section26ListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section1Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section2Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section3Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section4Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\InfoResistConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section5Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section6Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\NetConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section7Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section8Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section9Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section10Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\TVConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section11Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section12Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section13Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section14Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section15Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section16Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section17Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section18Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section19Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section20Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section21Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section22Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section23Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section24Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\LuganskNewsTodayConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section25Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\InformatorLgUaConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sections\Section26Config.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Commands\PlatformCommands.cs" />
+        <PRIResource Include="$(MSBuildThisFileDirectory)Strings\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\DesignData.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\DesignDataHtml.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\DesignDataMenu.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\DesignDataTD.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\DarkGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\LightGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Design\MediumGray.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\FlipSquareTile.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\FlipWideTile.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\5_channel.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\ukrpravda.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\Hromadske.TV.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\inforesist.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\ukrop.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\censor.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\24.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\liga.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\unian.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\zerkalonedeli.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\korrespondent.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\ModuleLogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\APukraine.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\rada.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\mfa.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\mvs.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\minoborona.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\rnbo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\ledokoin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\sluck.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\sputnik_ato.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\forestbro.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\lvivbat.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\lugansk_todat.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\novosti.dn.ua.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DataImages\informatorlgua.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ApplicationLogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Section1.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Section11.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Section18.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Section24.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Data\Section26.htm">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\ErrorNotificationControl.xaml.cs">
+      <DependentUpon>ErrorNotificationControl.xaml</DependentUpon>
+    </Compile>
+    <Page Include="$(MSBuildThisFileDirectory)Controls\ErrorNotificationControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+        <Page Include="$(MSBuildThisFileDirectory)Styles\AppBarButtons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Styles\AppTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Styles\DefaultTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

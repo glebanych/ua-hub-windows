@@ -1,0 +1,37 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "Ледокоин Гетьмана",
+    "Icon": "/Assets/DataImages/ledokoin.png",
+    "Target": "Section19ListPage",
+    "_id": "e40c085b-3d2a-40e0-b790-8d8980fff703"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Плохой Слуцк",
+    "Icon": "/Assets/DataImages/sluck.png",
+    "Target": "Section22ListPage",
+    "_id": "46fb8eb8-146b-4513-b53c-1442225471ee"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Спутник АТО",
+    "Icon": "/Assets/DataImages/sputnik_ato.png",
+    "Target": "Section21ListPage",
+    "_id": "d2caab5a-cb2f-41b1-a631-64e5e6e09ea4"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Лісовий Брат",
+    "Icon": "/Assets/DataImages/forestbro.png",
+    "Target": "Section23ListPage",
+    "_id": "52d5f687-df62-414a-a4ec-22dbd90a0e66"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Львівський Батяр",
+    "Icon": "/Assets/DataImages/lvivbat.png",
+    "Target": "Section20ListPage",
+    "_id": "64b8690b-b5b9-45cc-a960-7da79b5205de"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "АП України",
+    "Icon": "/Assets/DataImages/APukraine.png",
+    "Target": "Section12ListPage",
+    "_id": "d9e32f6a-2d7f-49ec-a241-7cf2b1983e2c"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Верховна Рада",
+    "Icon": "/Assets/DataImages/rada.png",
+    "Target": "Section13ListPage",
+    "_id": "72fb2907-6a4d-40c7-adef-10f6a45b7fbb"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "МЗС України",
+    "Icon": "/Assets/DataImages/mfa.png",
+    "Target": "Section14ListPage",
+    "_id": "d4aa2ecc-f2c2-4f95-8da9-6bb09e535b31"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "МВС України",
+    "Icon": "/Assets/DataImages/mvs.png",
+    "Target": "Section15ListPage",
+    "_id": "283ea4c3-1d9a-48d4-9bb6-0ddce15b966e"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Міноборони",
+    "Icon": "/Assets/DataImages/minoborona.png",
+    "Target": "Section16ListPage",
+    "_id": "1037ebfd-88a2-47a2-8fd7-700ddf6e71eb"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "РНБО",
+    "Icon": "/Assets/DataImages/rnbo.png",
+    "Target": "Section17ListPage",
+    "_id": "4dcc637c-56ca-4bff-85b6-57c7a4447b5b"
+  }
+]

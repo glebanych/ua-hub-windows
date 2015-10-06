@@ -1,0 +1,23 @@
+[
+  {
+    "MenuType": "Page",
+    "Title": "Lugansk News Today",
+    "Icon": "/Assets/DataImages/lugansk_todat.png",
+    "Target": "LuganskNewsTodayListPage",
+    "_id": "fc4a455c-0aed-41e6-991d-81762840f5ff"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Новости Донбасса",
+    "Icon": "/Assets/DataImages/novosti.dn.ua.png",
+    "Target": "Section25ListPage",
+    "_id": "f0df953f-92fb-44c0-a286-b1618bb1f494"
+  },
+  {
+    "MenuType": "Page",
+    "Title": "Informator.lg.ua",
+    "Icon": "/Assets/DataImages/informatorlgua.png",
+    "Target": "InformatorLgUaListPage",
+    "_id": "77440611-55df-49f9-89e7-05cb1589b981"
+  }
+]

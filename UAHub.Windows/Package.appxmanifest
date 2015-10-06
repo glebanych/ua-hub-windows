@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest"
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest"
+         xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+         IgnorableNamespaces="appstudio">
+    
+  <Identity Name="22748glebanych.UAHub" Publisher="CN=C9040E3D-CD3A-44A3-B52F-886BB29C6309" Version="1.1.3.0" />
+
+  <Properties>
+    <DisplayName>UA Hub</DisplayName>
+    <PublisherDisplayName>glebanych</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="UAHub.App">
+      <m2:VisualElements DisplayName="UA Hub" Description="Use this to create an app from scratch."
+                         ForegroundText="dark" 
+                         BackgroundColor="#ffffff"
+                         Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+
+        <m2:DefaultTile ShortName="UA Hub"
+                        Wide310x150Logo="Assets\Wide310x150Logo.png"
+                        Square70x70Logo="Assets\Square70x70Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#ffffff"/>
+        <m2:ApplicationView MinWidth="width320" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+    
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="7b2f7632-3f2c-4204-b524-a896915b4cff" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.11.0903.1" />
+    <appstudio:Item DataSource="Menu" Version="0.1.1"/>
+    <appstudio:Item DataSource="Twitter" Version="0.1.1"/>
+    <appstudio:Item DataSource="Html" Version="0.1.1"/>
+  </appstudio:Metadata>
+</Package>
